@@ -1,0 +1,64 @@
+# ======================
+# General
+# ======================
+.DS_Store
+Thumbs.db
+.env
+*.log
+
+# ======================
+# Node / React
+# ======================
+frontend-react/node_modules/
+frontend-react/.env.local
+frontend-react/.env.development.local
+frontend-react/.env.test.local
+frontend-react/.env.production.local
+frontend-react/build/
+
+# ======================
+# Python / FastF1
+# ======================
+fastf1-service/__pycache__/
+fastf1-service/.pytest_cache/
+fastf1-service/.env
+fastf1-service/venv/
+fastf1-service/.venv/
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# .NET / C#
+# ======================
+backend-dotnet/bin/
+backend-dotnet/obj/
+backend-dotnet/.vs/
+*.user
+*.suo
+*.swp
+
+# ======================
+# Docker / Deployment
+# ======================
+docker/*.pid
+docker/*.sock
+docker/.env
+docker/logs/
+.dockerignore
+
+# ======================
+# Database
+# ======================
+db/*.sqlite
+db/*.db
+db/*.bak
+db/migrations/__pycache__/
+db/migrations/*.pyc
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.iml
